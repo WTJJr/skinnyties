@@ -38,6 +38,40 @@
 
 }
 
+.logo {
+	display: inline;
+	/*Allows navs to display on same line as logo.*/
+}
+
 .logo img {
 	height: 180px;
+}
+
+.navs {
+	display: inline;
+	position: relative;
+}
+
+.navs a {
+	text-decoration: none;
+	color: gray;
+}
+
+.box {
+	border: 2px solid red;
+	height:20px;
+	display: inline;
+	position: absolute;
+
+}
+
+.cart {
+	border: 2px solid red;
+	display: inline;
+}
+
+.sprite {
+	background: url('hard-mode/assets/sprite@2x.png') no-repeat -90px -2px;
+	width: 28px;
+	height: 24px;
 }
