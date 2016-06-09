@@ -44,18 +44,32 @@
 	<div class="navs">
 		<a href="http://www.starwars.com">Pattern</a>
 	</div>
-	<div class="box">
-	</div>
 	<div class="cart">
 		<div class="sprite">	
 		</div>
+		<p>
+		Cart
+		</p>
+		<div class="counter">
+			<span class="counternumber">0</span>
+		</div>
 	</div>
+	
 	<div class="search-container">
 		<div class="signin-container">
+			<div class="signin">
+				<a href="http://www.starwars.com">Sign In</a>
+			</div>
+			<div class="register">
+				<a href="http://www.starwars.com">Register</a>
+			</div>
 			
 		</div>
 		<div class="searchbox">
-			
+			<form action=“/add-to-cart” method=“post”>
+				<input type=“text” name=“search” placeholder=Search>
+			</form>
+
 		</div>
 	</div>
 </div>

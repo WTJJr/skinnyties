@@ -32,6 +32,7 @@
 }
 
 .navbar {
+	position: relative;
 	background: white;
 	height: 200px;
 	border-bottom: 2px solid gray;
@@ -49,7 +50,11 @@
 
 .navs {
 	display: inline;
+	margin-right: 25px;
 	position: relative;
+	/*Enables relative positioning*/
+	bottom: 60px;
+	/*Positions navs centered on the height of the logo.*/
 }
 
 .navs a {
@@ -57,21 +62,73 @@
 	color: gray;
 }
 
-.box {
-	border: 2px solid red;
-	height:20px;
-	display: inline;
-	position: absolute;
-
-}
-
 .cart {
 	border: 2px solid red;
 	display: inline;
+	height: 50px;
+	width: 100px;
+		position: absolute;
+	left: 600px;
+	top: 90px;
+	/*Places shopping cart box in proper location. Weird things were happening when
+	trying to add the .cart div next to the navs.*/
+}
+
+.cart p {
+float: left;
+margin: 15px 5px;
+}
+
+.counter {
+	background: gray;
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-top: 12px;
+}
+
+.counternumber {
+	padding: 5px;
+	display: inline;
+	margin: 0px;
 }
 
 .sprite {
 	background: url('hard-mode/assets/sprite@2x.png') no-repeat -90px -2px;
 	width: 28px;
 	height: 24px;
+	margin: 10px 5px;
+	float: left;
+	/*Lines up shopping cart in cart div.*/
+}
+
+.search-container {
+	float: right;
+	position: relative;
+	top: 60px;
+	right: 40px;
+}
+/*Places Search box and Sign In and Register boxes on right side of Navbar and positions appropriately.*/
+
+.searchbox {
+	position: relative;
+	/*Enables Search box to be positioned.*/
+}
+
+.search-container div a {
+	text-decoration: none;
+	color: gray;
+}
+
+.signin-container {
+	float: right;
+}
+
+.signin {
+	display: inline;
+	margin-right: 10px;
+}
+
+.register {
+	display: inline;
 }
