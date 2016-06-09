@@ -1,4 +1,39 @@
 .header {
 	background: #FF6743;
-	height: 30px;
+	height: 32px;
+	color: white;
+}
+
+.free-shipping {
+	
+	background: #CB5135;
+	height: 10px;
+	width: 90px;
+	font-size: 10px;
+	margin-left: 95px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	display: inline;
+}
+
+.savingsbar{
+	display: inline;
+/*Allows 'Plus Spring Savings', etc. to display next to 'FREE SHIPPING!'*/
+	position: relative;
+	top: 5px;
+	/*Places small gap between savings text and top of page*/
+}
+
+.savings {
+	display: inline;
+	margin-left: 15px;
+	/*Places 15px gap between 'FREE SHIPPING!' and "Plus Spring Savings', etc.*/
+}
+
+.navbar {
+	background: white;
+	height: 200px;
+	border-bottom: 2px solid gray;
+
 }
