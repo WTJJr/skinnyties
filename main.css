@@ -1,90 +1,95 @@
 .header {
 	background: #FF6743;
-	height: 32px;
+	height: 33px;
 	color: white;
 }
 
 .free-shipping {
-	
 	background: #CB5135;
-	height: 10px;
-	width: 90px;
+	width: 95px;
+	height: 20px;
 	font-size: 10px;
-	margin-left: 95px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
+	padding: 6px 7px;
+	/*Puts dark orange padding around FREE SHIPPING!*/
+	border-radius: 3px;
+	text-align: center;
 	display: inline;
+	position: relative;
+	top: 6px;
+	/*Places 6px gap between text and top of header.*/
+	margin-right: 13px;
+	/*places 13 pix gap on right between dark orange padding and savings text.*/
 }
 
 .savingsbar{
-	display: inline;
-/*Allows 'Plus Spring Savings', etc. to display next to 'FREE SHIPPING!'*/
-	position: relative;
-	top: 5px;
-	/*Places small gap between savings text and top of page*/
+	height: 33px;
+	/*Matches height to that of orange header*/
+	margin-left: 95px;
 }
 
 .savings {
 	display: inline;
-	margin-left: 15px;
-	/*Places 15px gap between 'FREE SHIPPING!' and "Plus Spring Savings', etc.*/
+	font-size: 12px;
+	position: relative;
+	top: 6px;
+	/*Places 6px gap between text and top of header*/
+	margin-right: 16px;
 }
 
 .navbar {
 	position: relative;
 	background: white;
-	height: 200px;
-	border-bottom: 2px solid gray;
-
+	height: 100px;
 }
 
 .logo {
 	display: inline;
 	/*Allows navs to display on same line as logo.*/
+	margin-left: 94px;
+	margin-right: 62px;
+	/*Places 62px gap on right of logo*/
 }
 
 .logo img {
-	height: 180px;
+	height: 100px;
 }
 
 .navs {
 	display: inline;
-	margin-right: 25px;
+	margin-right: 21px;
 	position: relative;
-	/*Enables relative positioning*/
-	bottom: 60px;
-	/*Positions navs centered on the height of the logo.*/
+	bottom: 41px;
 }
 
 .navs a {
 	text-decoration: none;
 	color: gray;
+	font-size: 18px;
 }
 
 .cart {
-	border: 2px solid red;
+	border: 1px solid gray;
 	display: inline;
-	height: 50px;
-	width: 100px;
+	width: 80px;
+	height: 30px;
 		position: absolute;
-	left: 600px;
-	top: 90px;
+	left: 780px;
+	top: 36px;
 	/*Places shopping cart box in proper location. Weird things were happening when
 	trying to add the .cart div next to the navs.*/
 }
 
 .cart p {
 float: left;
-margin: 15px 5px;
+font-size: 12px;
+display: inline;
 }
 
 .counter {
 	background: gray;
-	height: 20px;
-	width: 20px;
-	float: left;
-	margin-top: 12px;
+	height: 17px;
+	width: 17px;
+	float: left;;
 }
 
 .counternumber {
@@ -97,18 +102,19 @@ margin: 15px 5px;
 	background: url('hard-mode/assets/sprite@2x.png') no-repeat -90px -2px;
 	width: 28px;
 	height: 24px;
-	margin: 10px 5px;
+	margin: 5px 5px;
 	float: left;
 	/*Lines up shopping cart in cart div.*/
 }
 
 .search-container {
-	float: right;
-	position: relative;
-	top: 60px;
-	right: 40px;
+	display: inline;
+	position: absolute;
+	bottom: 36px;
+	left: 872px;
 }
-/*Places Search box and Sign In and Register boxes on right side of Navbar and positions appropriately.*/
+/*Places Search box absolutely in relation to navbar. Places Searchbox 
+and Sign In and Register boxes on right side of Navbar and positions appropriately.*/
 
 .searchbox {
 	position: relative;
@@ -122,15 +128,18 @@ margin: 15px 5px;
 
 .signin-container {
 	float: right;
+	margin-bottom: 11px;
 }
 
 .signin {
 	display: inline;
 	margin-right: 10px;
+	font-size: 9px;
 }
 
 .register {
 	display: inline;
+	font-size: 9px;
 }
 
 .body1 {
@@ -140,7 +149,7 @@ margin: 15px 5px;
 }
 
 .tiecontainer {
-	margin-left: 300px;
+	margin-left: 158px;
 }
 
 .tie {
