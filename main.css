@@ -132,3 +132,168 @@ margin: 15px 5px;
 .register {
 	display: inline;
 }
+
+.body1 {
+	background: #F4F4F4;
+	height: 350px;
+	border-bottom: 1px solid black;
+}
+
+.tiecontainer {
+	margin-left: 300px;
+}
+
+.tie {
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.tie img {
+	height: 100px;
+}
+
+.tie a {
+	text-decoration: none;
+	color: gray;
+}
+
+.tieslogan {
+	font-size: 40px;
+	padding-left: 200px;
+	clear: left;
+	position: relative;
+	top: 150px;
+	left: 250px;
+}
+
+.body2 {
+	background: white;
+	height: 350px;
+	border-bottom: 1px solid black;
+}
+
+.tiecontainer2 {
+	margin-top: 40px;
+	margin-left: 100px;
+	position: relative;
+}
+
+.tiecontainer2 a {
+	text-decoration: none;
+}
+
+.tie2 {
+	width: 200px;
+	margin-right: 20px;
+}
+
+.bowtie {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+
+.pocketsquare {
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	width: 50px;
+}
+
+.tiebar {
+	position: absolute;
+	top: 10px;
+	left: 570px;
+}
+
+.tiehistory1 {
+	font-size: 40px;
+	margin-left: 200px;
+}
+
+.tiehistory2 {
+	font-size: 40px;
+	margin-left: 200px;
+}
+
+.viewstory {
+	font-size: 30px;
+	text-decoration: none;
+	color: lightblue;
+	margin-left: 300px;
+}
+
+.body3 {
+	background: white;
+	height: 300px;
+	bottom-border: 1px solid gray;
+}
+
+.body3container {
+	margin-left: 90px;
+}
+
+.body3row {
+	height: 150px;
+	width: 100px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.body3img {
+	height: 50px;
+	width: 100px;
+}
+
+.body4 {
+	height: 200px;
+	background: #F4F4F4;
+}
+
+.body4container {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.footernavrow {
+	background: yellow;
+	height: 150px;
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.footnavs {
+	padding-left: 0px;
+}
+
+.footnavs li {
+	list-style: none;
+}
+
+.here4u-container {
+	height: 100px;
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 70px;
+	background: gray;
+	position: relative;
+}
+
+.here4u {
+	color: white;
+	margin: 15px;
+}
+
+.contactus {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+	background: #24A3F8;
+	padding: 7px;
+	color: white;
+
+}
