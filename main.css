@@ -37,28 +37,22 @@
 }
 
 .navbar {
-	position: relative;
 	background: white;
 	height: 100px;
 }
 
-.logo {
-	display: inline;
-	/*Allows navs to display on same line as logo.*/
+.navbar img {
+	height: 100px;
 	margin-left: 94px;
 	margin-right: 62px;
-	/*Places 62px gap on right of logo*/
-}
-
-.logo img {
-	height: 100px;
+	float: left;
 }
 
 .navs {
-	display: inline;
-	margin-right: 21px;
-	position: relative;
-	bottom: 41px;
+	float: left;
+	margin-right: 17px;
+	margin-top: 41px;
+
 }
 
 .navs a {
@@ -69,33 +63,30 @@
 
 .cart {
 	border: 1px solid gray;
-	display: inline;
+	float: left;
 	width: 80px;
 	height: 30px;
-		position: absolute;
-	left: 780px;
-	top: 36px;
+	margin-top: 36px;
+	margin-left: 101px;
 	/*Places shopping cart box in proper location. Weird things were happening when
 	trying to add the .cart div next to the navs.*/
 }
 
 .cart p {
-float: left;
 font-size: 12px;
-display: inline;
+float: left;
 }
 
 .counter {
 	background: gray;
 	height: 17px;
 	width: 17px;
-	float: left;;
-}
-
-.counternumber {
-	padding: 5px;
-	display: inline;
-	margin: 0px;
+	float: left;
+	margin-top: 6px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 2px;
 }
 
 .sprite {
@@ -108,17 +99,20 @@ display: inline;
 }
 
 .search-container {
-	display: inline;
-	position: absolute;
-	bottom: 36px;
-	left: 872px;
+	float: left;
+	margin-left: 10px;
 }
-/*Places Search box absolutely in relation to navbar. Places Searchbox 
-and Sign In and Register boxes on right side of Navbar and positions appropriately.*/
 
-.searchbox {
-	position: relative;
-	/*Enables Search box to be positioned.*/
+.searchform {
+	height: 22px;
+	width: 130px;
+	margin-top: 9px;
+}
+
+.searchform input {
+	margin-top: 9px;
+	height: 22px;
+	width: 130px;
 }
 
 .search-container div a {
@@ -128,7 +122,7 @@ and Sign In and Register boxes on right side of Navbar and positions appropriate
 
 .signin-container {
 	float: right;
-	margin-bottom: 11px;
+	margin-top: 11px;
 }
 
 .signin {
@@ -150,6 +144,9 @@ and Sign In and Register boxes on right side of Navbar and positions appropriate
 
 .tiecontainer {
 	margin-left: 158px;
+	height: 162px;
+	/*Gives height to the .tiecontainer div, which causes the "Start Dressing
+	Better" slogan to drop below, since .tiecontainer is a block-level element.*/
 }
 
 .tie {
@@ -177,69 +174,64 @@ and Sign In and Register boxes on right side of Navbar and positions appropriate
 }
 
 .tieslogan {
-	font-size: 40px;
-	padding-left: 200px;
-	clear: left;
-	position: relative;
-	top: 150px;
-	left: 250px;
+	font-size: 48px;
+	margin-top: 54px;
+	margin-left: 324px;
 }
 
 .body2 {
 	background: white;
-	height: 350px;
-	border-bottom: 1px solid black;
+	height: 469px;
 }
 
 .tiecontainer2 {
-	margin-top: 40px;
+	margin-top: 43px;
 	margin-left: 100px;
-	position: relative;
+	overflow: auto;
 }
 
 .tiecontainer2 a {
 	text-decoration: none;
 }
 
+.tierow {
+	float: left;
+	margin-right: 17px;
+	position: relative;
+}
+
+h2 {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	margin: 0px;
+}
+
+
 .tie2 {
-	width: 200px;
-	margin-right: 20px;
-}
-
-.bowtie {
-	position: absolute;
-	top: 10px;
-	left: 100px;
-}
-
-.pocketsquare {
-	position: absolute;
-	top: 10px;
-	left: 350px;
-	width: 50px;
-}
-
-.tiebar {
-	position: absolute;
-	top: 10px;
-	left: 570px;
+	width: 291px;
 }
 
 .tiehistory1 {
 	font-size: 40px;
-	margin-left: 200px;
+	margin-top: 81px;
+	text-align: center;
+	clear: left;
 }
 
 .tiehistory2 {
 	font-size: 40px;
-	margin-left: 200px;
+	text-align: center;
 }
 
 .viewstory {
 	font-size: 30px;
+	text-align: center;
+}
+
+.viewstory a {
 	text-decoration: none;
 	color: lightblue;
-	margin-left: 300px;
 }
 
 .body3 {
@@ -250,10 +242,10 @@ and Sign In and Register boxes on right side of Navbar and positions appropriate
 
 .body3container {
 	margin-left: 90px;
+	overflow: auto;
 }
 
 .body3row {
-	height: 150px;
 	width: 100px;
 	float: left;
 	margin-top: 30px;
