@@ -144,18 +144,27 @@ margin: 15px 5px;
 }
 
 .tie {
-	height: 100px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 26px;
+	/*Spaces ties evenly across center of page*/
 }
 
 .tie img {
-	height: 100px;
+	width: 64px;
+	/*Makes tie imgs the same size as the ties in the mockup.*/
 }
 
 .tie a {
 	text-decoration: none;
 	color: gray;
+	font-size: 14px;
+}
+
+.tiecaption {
+	text-align: center;
+	/*Aligns text in the center of the tiecaption divs*/
+	margin-top: 8px;
+	/*Aligns text vertically with text under ties in the mockup*/
 }
 
 .tieslogan {
