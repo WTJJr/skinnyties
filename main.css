@@ -174,8 +174,9 @@ float: left;
 }
 
 .tieslogan {
-	font-size: 48px;
-	margin-top: 54px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 51px;
 	margin-left: 324px;
 }
 
@@ -205,6 +206,8 @@ h2 {
 	top: 18px;
 	right: 18px;
 	margin: 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
 }
 
 
@@ -213,25 +216,33 @@ h2 {
 }
 
 .tiehistory1 {
-	font-size: 40px;
-	margin-top: 81px;
-	text-align: center;
+	font-size: 32px;
+	margin-top: 39px;
+	margin-left: 230px;
 	clear: left;
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
 }
 
 .tiehistory2 {
-	font-size: 40px;
-	text-align: center;
+	font-size: 32px;
+	margin-left: 210px;
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
 }
 
 .viewstory {
-	font-size: 30px;
-	text-align: center;
+	font-size: 15px;
+	margin-left: 500px;
+	margin-top: 20px;
+	font-family: 'Jura', sans-serif;
 }
 
 .viewstory a {
 	text-decoration: none;
-	color: lightblue;
+	color: #0099F7;
 }
 
 .body3 {
@@ -252,8 +263,13 @@ h2 {
 	margin-right: 37px;
 }
 
+.rowcaption a {
+	color: #009AF7;
+}
+
 .imgheader {
 	font-weight: bold;
+	margin-bottom: 16px;
 }
 
 .body3img {
@@ -261,10 +277,20 @@ h2 {
 	height: 120px;
 }
 
+.emailsubmit {
+	margin-top: 20px;
+}
+
 .subscribe {
 	color: white;
-	background: blue;
+	background: #24A3F8;
 	margin-top: 20px;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 6px;
+	width: 85px;
+	height: 22px;
+	border-radius: 5px;
 }
 
 .body4 {
